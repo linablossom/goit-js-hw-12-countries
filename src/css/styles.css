@@ -1,0 +1,31 @@
+#input {
+  height: 35px;
+  width: 180px;
+  padding: 8px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#country {
+  display: flex;
+}
+
+#country img {
+  width: 400px;
+  height: auto;
+
+  box-shadow: 0 0 5px #000000;
+}
+
+#country div {
+  margin: 50px;
+}
+
+#country li {
+  font-size: 20px;
+}
+
+.pnotify {
+  position: fixed;
+  height: 100px;
+}
