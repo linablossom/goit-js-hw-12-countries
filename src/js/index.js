@@ -14,7 +14,7 @@ const renderResults = (countries) => {
   if (countries.length > 10) {
     error({
       text: "Too many matches found. Please, enter a more specific query!",
-      delay: 3333000,
+      delay: 3000,
     });
     countryEl.innerHTML = "";
   } else if (countries.length > 1) {
@@ -36,6 +36,7 @@ const loadCountries = (str) => {
     .catch(() => {
       error({
         text: "Cannot load countries!",
+        delay: 3000,
       });
       countryEl.innerHTML = "";
     });
